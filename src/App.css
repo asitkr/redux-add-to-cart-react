@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.cart {
+  position: absolute;
+  right: 20px;
+  background-color: #5F84CE;
+  color: #fff;
+  z-index: 1;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: -12px;
+  margin-right: 9px;
+  width: 10px;
+}
+
+.add-to-cart img {
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.btn-wrapper .add-btn {
+  background-color: green;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.remove-btn {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.img-wrapper img {
+  width: 100px;
+}
+
+.cart-wrapper {
+  height: 250px;
+  width: 300px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
